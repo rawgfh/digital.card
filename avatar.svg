@@ -1,0 +1,62 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E0F6FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF8DC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5D5D5D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3D3D3D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grassGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 天空 -->
+  <rect x="0" y="0" width="200" height="120" fill="url(#skyGrad)"/>
+
+  <!-- 太阳 -->
+  <circle cx="160" cy="40" r="20" fill="#FFD700"/>
+  <circle cx="160" cy="40" r="25" fill="#FFD700" opacity="0.3"/>
+
+  <!-- 白云 -->
+  <ellipse cx="50" cy="35" rx="25" ry="12" fill="white" opacity="0.9"/>
+  <ellipse cx="65" cy="30" rx="20" ry="10" fill="white" opacity="0.9"/>
+  <ellipse cx="40" cy="40" rx="15" ry="8" fill="white" opacity="0.9"/>
+
+  <ellipse cx="120" cy="55" rx="18" ry="9" fill="white" opacity="0.8"/>
+  <ellipse cx="132" cy="52" rx="15" ry="8" fill="white" opacity="0.8"/>
+
+  <!-- 远山 -->
+  <path d="M0 100 L30 70 L60 90 L100 60 L140 85 L180 65 L200 80 L200 100 Z" fill="#A0A0A0" opacity="0.6"/>
+
+  <!-- 近山 -->
+  <path d="M0 110 L40 75 L80 100 L120 70 L160 95 L200 80 L200 120 L0 120 Z" fill="url(#mountainGrad)"/>
+
+  <!-- 雪峰 -->
+  <path d="M95 65 L100 60 L105 65 L102 70 L98 70 Z" fill="white"/>
+  <path d="M155 80 L160 75 L165 80 L162 85 L158 85 Z" fill="white"/>
+
+  <!-- 草地 -->
+  <rect x="0" y="120" width="200" height="40" fill="url(#grassGrad)"/>
+
+  <!-- 小路 -->
+  <path d="M85 160 Q100 155 115 160 L120 200 L80 200 Z" fill="#D2B48C" opacity="0.7"/>
+
+  <!-- 树木 -->
+  <ellipse cx="30" cy="125" rx="15" ry="20" fill="#228B22"/>
+  <rect x="27" y="140" width="6" height="20" fill="#8B4513"/>
+
+  <ellipse cx="175" cy="130" rx="12" ry="15" fill="#006400"/>
+  <rect x="172" y="142" width="6" height="18" fill="#8B4513"/>
+
+  <!-- 飞鸟 -->
+  <path d="M70 50 Q75 45 80 50" stroke="#555" stroke-width="1.5" fill="none"/>
+  <path d="M85 45 Q90 40 95 45" stroke="#555" stroke-width="1.5" fill="none"/>
+
+  <!-- 边框 -->
+  <rect x="0" y="0" width="200" height="200" fill="none" stroke="#333" stroke-width="2" rx="10"/>
+</svg>
